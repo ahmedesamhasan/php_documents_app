@@ -1,0 +1,118 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f0f2f5;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Container */
+.upload-container {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 420px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Message */
+.message {
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  background: #ffeeba;
+  border: 1px solid #f5c6cb;
+  border-radius: 4px;
+  color: #856404;
+}
+
+/* Form Groups */
+.form-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+.form-group label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-weight: bold;
+}
+
+/* File Input */
+#file {
+  display: none;
+}
+.file-label {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.file-label:hover {
+  background: #0056b3;
+}
+.file-name {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  color: #666;
+}
+
+/* Text Inputs & Textarea */
+input[type='text'],
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+input[type='text']:focus,
+textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Actions */
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+.btn-primary,
+.btn-secondary {
+  flex: 1;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+}
+.btn-primary {
+  background: #28a745;
+}
+.btn-primary:hover {
+  background: #218838;
+}
+.btn-secondary {
+  background: #6c757d;
+}
+.btn-secondary:hover {
+  background: #5a6268;
+}
